@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Home | Tryo Asnafi</title>
+  </head>
+  <body class="bg">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">Tryo Asnafi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-pills ml-auto text-center">
+          <li class="nav-item px-2 border-bottom border-warning active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="about.html" >About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="experience.html">Experiences</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="project.html">Projects</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="blog/">Blog</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="covid-19.html" ><button type="button" class="btn btn-outline-warning btn-sm rounded-pill" data-toggle="tooltip" data-placement="bottom" title="Data Covid-19 Indonesia"><span class="px-2">Covid-19</span></button></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Typing Section -->
+    <div class="container d-flex justify-content-center align-items-center h-75">
+      <h1 id="typing" class="text-white"></h1>
+    </div>
+    <!-- End of Typing Section -->
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white fixed-bottom">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col text-left">
+            <span>&copy; 2020. Made with <img src="media_files/heart.svg" alt=""> by</span>
+            <a href="https://tryoasnafi.my.id" class="font-weight-bold text-white"> Tryo Asnafi</a>
+          </div>
+          <div class="col text-right">
+            <div class="social-media">
+              <a href="https://github.com/tryoasnafi" class="px-2"><img src="media_files/github.svg" alt="github" title="follow my github"></a>
+              <a href="https://facebook.com/tryoasnafi" class="px-2"><img src="media_files/facebook.svg" alt="facebook" title="add my facebook"></a>
+              <a href="https://linkedin.com/in/tryoasnafi" class="px-2"><img src="media_files/linkedin.svg" alt="linkedin" title="connect to lindkedin"></a>
+              <a href="mailto:tryoasnafi@gmail.com" class="px-2"><img src="media_files/mail.svg" alt="mail" title="send me mail"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script>
+      let app = document.getElementById('typing');
+
+      let typewriter = new Typewriter(app, {
+          loop: true
+      });
+
+      typewriter.typeString('Hello World!')
+          .pauseFor(1000)
+          .deleteAll()
+          .typeString('Welcome to my website')
+          .pauseFor(1000)
+          .deleteAll()
+          .typeString('My name is <strong style="color:#ffc107">Tryo Asnafi</strong>')
+          .pauseFor(1000)
+          .deleteAll()
+          .typeString('I\'m a Web Developer')
+          .pauseFor(4000)
+          .start();
+    </script>
+  </body>
+</html>
