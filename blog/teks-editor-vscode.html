@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Jurnalku | Tryo Asnafi</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">Tryo Asnafi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-pills ml-auto text-center">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="../about.html" >About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="../service.html">Services</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="../experience.html">Experiences</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="../project.html">Projects</a>
+          </li>
+          <li class="nav-item px-2 border-bottom border-warning active">
+            <a class="nav-link" href="../blog/">Blog</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../covid-19.html" ><button type="button" class="btn btn-outline-warning btn-sm rounded-pill" data-toggle="tooltip" data-placement="bottom" title="Data Covid-19 Indonesia"><span class="px-2">Covid-19</span></button></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Blog Page Section -->
+    <div class="container my-0 my-md-5">
+        <div class="row">
+           <div class="col-sm-12 col-lg-8">
+              <article class="card">
+                 <div class="card-body p-md-5">
+                    <div class="post-header">
+                       <div class="mb-3">
+                          <small>Admin</small>
+                          <small class="align-middle text-muted">· update terakhir
+                          24 Jun 2020</small>
+                       </div>
+                       <h1 class="card-title mb-3 post-title font-weight-bold">[Review] Text Editor Visual Studio Code di Linux</h1>
+                       <hr>
+                       <div>
+                           <span class="badge badge-info"># <a class="text-white" rel="tag" href="#">Text Editor</a></span>
+                           <span class="badge badge-info"># <a class="text-white" rel="tag" href="#">VSCode</a></span>
+                        </div>
+                    </div>
+                    <div class="post-content my-5">
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/visual-studio-code.png" alt="Text Editor Vscode">
+                        </p>
+                        <p>Visual Studio Code atau VS Code adalah teks editor open-source berbasis
+                           Electron yang diracik oleh Microsoft.</p>
+                        <p>Saya sering melihat foto-foto programmer yang saya ikuti di instagram menggunakan
+                           VS Code.</p>
+                        <p>Jadi penasaran dan ingin mencobanya…</p>
+                        <p>Beberapa minggu ini, saya sudah mencobanya…dan ingin menulis sedikit review tentangnya.</p>
+                        <p>Pertama saya akan membahas cara instalasinya, kemudian performa, pengenalan antarmuka,
+                           review beberapa fitur, dukungan bahasa, rekomendasi <em>extension</em>, dan ditutup dengan permasalahan yang saya temukan.</p>
+                        <h2 id="cara-instal-vs-code-di-linux">Cara Instal VS Code di Linux</h2>
+                        <p>Pertama download VS Code di website resminya:
+                           <a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a>.
+                        </p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/download-vscode.png" alt="Download Visual Code Studio">
+                        </p>
+                        <p>Pilih sesuai sistem operasi yang kamu gunakan.</p>
+                        <p>Saya menggunakan Distro Linux keluarga Debian, maka saya harus download yang <code>deb</code>.
+                        </p>
+                        <p>Setelah itu lakukan instalasi dengan <code>dpkg</code> atau paket manajemen sejenisnya.
+                        </p>
+                        </div>
+                        <h2>Performa VS Code di Linux</h2>
+                        <p>Sejauh ini, saya merasakan VS Code cukup ringan. Hanya memakan memori sekitar +200MB.</p>
+                        <p>Seperti yang terpantau pada Sistem Monitor berikut ini:</p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/sistem-monitor.png" data-src="/media/sistem-monitor.png" alt="Penggunaan Memori VS Code">
+                        </p>
+                        <p>Sebelumnya saya menggunakan Atom.</p>
+                        <p>Atom kadang<em>ngelag</em> dan cukup lama dibuka.</p>
+                        <p>Atom dan VS Code, sama-sama dibuat dari Electron,
+                           tapi VS Code lebih ringan dibandingkan Atom.</p>
+                        <h2 id="mengenal-antarmuka-vs-code">Mengenal Antarmuka VS Code</h2>
+                        <p>Tampilan VS Code sama seperti teks editor pada umumnya: ada tempat menulis kode,
+                           sidebar, menubar, dan beberapa ikon untuk membuka tool tertentu.
+                        </p>
+                        <p>Kalau menurut saya, VS Code lebih mirip dengan Sublime, karena ada <em>Mini Map</em> di sampingnya.</p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/vscode.png"alt="Tampilan VS Code">
+                        </p>
+                        <h3 id="tema">Tema</h3>
+                        <p>VS Code menyediakan beberapa tema…</p>
+                        <p>Kita bisa menggantinya dengan klik pada ikon <em>gear</em> di pojok kanan bawah, kemudian
+                           memilih <em>Color Theme</em>.</p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/vscode-tema.png"alt="Memilih Tema VS Code">
+                        </p>
+                        <h3 id="font">Font</h3>
+                        <p>Font bawaan VS Code menggunakan <code>Droid Sans Mono</code>. Font ini biasanya digunakan pada
+                           android.
+                        </p>
+                        <p>Kita juga bisa menggantinya sesuai selera di pengaturan.</p>
+                        <h2>Fitur-Fitur yang Saya Sukai</h2>
+                        <p>Ada beberapa Fitur yang saya suka dari VS Code</p>
+                        <h3>1. Terintegrasi dengan Git</h3>
+                        <p>Di bagian samping, terdapat ikon
+                           <em>“branch”</em>. Ikon tersebut untuk membuka
+                           Git.
+                        </p>
+                        <p>Bila poryek kita sudah menggunakan Git, maka VS Code akan mencatat
+                           semua perubahan dilakukan di sana.
+                        </p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/git-vscode.png" alt="Fitur Git VS Code">
+                        </p>
+                        <p>Kita bisa melihat perbedaan perubahannya (
+                           <code>git diff</code>), melakukan
+                           <code>commit</code>,
+                           <em>push</em> ke repositori
+                           <em>remote</em>, dan sebagainya.
+                        </p>
+                        <p>Baca juga:
+                           <a href="#">Cara Menggunakan Git pada VS Code</a>
+                        </p>
+                        <h3>2. Ada Terminal di dalamnya</h3>
+                        <p>VS Code menyediakan terminal yang bisa dibuka kapan saja dengan tombol
+                           <kbd>Ctrl</kbd>+
+                           <kbd>`</kbd>.
+                        </p>
+                        <p>Terminal sangat berguna jika kita bekerja dengan CLI.</p>
+                        <p>Saya sering menggunakan Terminal untuk menjalankan server dan mengompilasi
+                           beberapa kode.
+                        </p>
+                        <p>Biasanya saya buka terminal dan teks editor secara terpisah.</p>
+                        <p>Tapi, karena sudah disediakan di dalam teks editor…terminal (eksternal) tidak lagi saya buka.</p>
+                        <h3>3. Mini Map</h3>
+                        <p>Mini Map adalah tampilan kecil di samping kanan yang memetakan semua
+                           kode.
+                        </p>
+                        <p>Mini Map sangat berguna untuk pindah-pindah
+                           <em>(scroll)</em> dengan cepat.
+                        </p>
+                        <h3>4. Split</h3>
+                        <p>
+                           <em>Split</em> adalah fitur untuk memecah editor menjadi beberapa bagian.
+                        </p>
+                        <p>Fitur ini sering saya gunakan saat bekerja dengan banyak file.</p>
+                        <p>Untuk memecah editor, kita bisa tekan tombol
+                           <kbd>Ctrl</kbd>+
+                           <kbd>\</kbd> atau klik ikon split di pojok kanan atas editor.
+                        </p>
+                        <h3 id="5-autocomplete">5. Autocomplete</h3>
+                        <p>Sebagian besar teks editor memiliki
+                           <em>autocomplete</em>.
+                        </p>
+                        <p>VS Code menyediakan
+                           <em>autocomplete</em> yang bisa kita
+                           akses dengan menekan tombol
+                           <kbd>Ctrl</kbd>+
+                           <kbd>Spasi</kbd>.
+                        </p>
+                        <p>Berikut ini contoh
+                           <em>autocomplete</em> ketika
+                           <em>ngoding</em> CSS.
+                        </p>
+                        <h2>Dukungan Bahasa</h2>
+                        <p>VS Code dapat digunakan untuk
+                           <em>ngoding</em> berbagai macam
+                           bahasa. Seperti:
+                           <a href="#">C</a>, C++, C#,
+                           <a href="#">CSS</a>, Dockerfile, Go,
+                           <a href="#">HTML</a>,
+                           <a href="#">JavaScript</a>, JSON,
+                           <a href="#">Java</a>, Less, Markdown,
+                           <a href="#">PHP</a>,
+                           <a href="#">Python</a>, Sass, T-SQL,
+                           TypeScript, dan masih banyak lagi.
+                        </p>
+                        <p>Bila bahasa yang kamu gunakan belum ada, coba cari di
+                           <a href="https://marketplace.visualstudio.com/vscode/Languages" target="_blank">
+                           <em>Marketplace VS Code</em>
+                           </a>.
+                        </p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/bahasa-pemrograman.png" dalt="bahasa pemrograman">
+                        </p>
+                        <p>Untuk mengganti bahasa, silahkan klik pada pojok kanan bawah,
+                           atau tekan tombol
+                           <kbd>Ctrl</kbd>+
+                           <kbd>k</kbd> kemudian tekan
+                           <kbd>m</kbd>.
+                        </p>
+                        <p>Maka akan muncul jendela pemilihan bahasa:</p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="/media_files/pemilihan-bahasa.png" alt="Pemilihan bahasa pemrograman VS Code">
+                        </p>
+                        <p>Tips:</p>
+                        <p>Untuk menyempurnakan silahkan install ekstensi/plugin sesaui bahasanya.</p>
+                        <p>Misalkan kita mau
+                           <em>coding</em> python, silahkan install ekstensi
+                           <em>python</em> agar
+                           memudahkan dalam
+                           <em>debugging</em>,
+                           <em>linting</em>,
+                           <em>autocomplete</em>, indentasi, dsb.
+                        </p>
+                        <h2>Rekomendasi
+                           <em>Extension</em>
+                        </h2>
+                        <p>Ada beberapa extension yang saya rekomendasikan untuk
+                           memudahkan
+                           <em>coding</em>.
+                        </p>
+                        <h3 id="1-code-runnerhttpsmarketplacevisualstudiocomitemsitemnameformulahendrycode-runner">1. 
+                           <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner" target="_blank">Code Runner</a>
+                        </h3>
+                        <p>Extension ini bisa mengeksekusi kode dari bahasa C, C++, Java, JS,
+                           PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD, BASH, F#,
+                           C#, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia,
+                           Crystal, OCaml, R, AppleScript, Elixir, VB.NET, Clojure, Haxe,
+                           Objective-C, Rust, Racket, AutoHotkey, AutoIt, Kotlin, Dart, Pascal, Haskell, Nim, dan D.
+                        </p>
+                        <p>
+                           <img class="mb-3 img-fluid" data-sizes="auto" src="https://github.com/formulahendry/vscode-code-runner/raw/master/images/usage.gif" data-src="https://github.com/formulahendry/vscode-code-runner/raw/master/images/usage.gif" alt="Demo Extension Code Runner">
+                        </p>
+                        <p>Atau bisa juga dicari langsung di kotak pencarian
+                           <em>extension</em>.
+                        </p>
+                        <h3><a href="https://marketplace.visualstudio.com/items?itemName=bierner.emojisense" target="_blank">2. Emojinese</a>
+                        </h3>
+                        <p>
+                           <em>Extension</em> ini mampu memberikan rekomendasi kode emoji.
+                           <em>Extension</em> ini
+                           sangat berguna bagi saya yang suka menyisipkan emoji pada artikel
+                           <a href="#">hugo</a>
+                           dan pesan
+                           <em>commit git</em>.
+                        </p>
+                        <p>Biasanya saya melihat contekan kodenya di sini:
+                           <a href="https://www.webpagefx.com/tools/emoji-cheat-sheet/">https://www.webpagefx.com/tools/emoji-cheat-sheet/</a>
+                        </p>
+                        <h3><a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory" target="_blank">3. Git History</a>
+                        </h3>
+                        <p>
+                           <em>Extension</em> untuk melihat sejarah perubahan revisi
+                           <a href="#">Git</a>.
+                           <em>Extension</em> ini sangat berguna untuk yang
+                           sering bekerja dengan Git.
+                        </p>
+                        <h2>Masalah yang Saya Temukan</h2>
+                        <p>Ada beberapa masalah yang saya temukan di VS Code:</p>
+                        <h3>1. Belum Menghapal
+                           <em>Shortcut Key</em>
+                        </h3>
+                        <p>Rasanya seperti baru belajar VIM, saya kesulitan menghapal
+                           <em>shortcut key</em>
+                           VS Code.
+                        </p>
+                        <p>VS Code tidak menggunakan
+                           <em>shortcut key</em> seperti pada teks editor umumnya.
+                        </p>
+                        <p>Misalnya, pada Sublime dan Atom menggunakan tombol
+                           <kbd>Ctrl</kbd> untuk melakukan
+                           tindakan tertentu…tapi di VS Code menggunakan
+                           <kbd>Alt</kbd>.
+                        </p>
+                        <p>Ini membuat saya bingung…</p>
+                        <p>Untungnya sudah disediakan
+                           <em>Cheat Sheet</em>:
+                           <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf" target="_blank">keyboard-shortcuts-linux.pdf</a>
+                        </p>
+                        <p>Selain itu, kita juga bisa menginstal
+                           <em>extension keymap</em>—Atom, VIM, dan sebagainya—bila
+                           belum terbiasa dengan
+                           <em>shortcut key</em> VS Code.
+                        </p>
+                        <h3>2. Key <em>Multi Cursor</em> Bentrok
+                        </h3>
+                        <p>
+                           <em>Multi Cursor</em> adalah fitur yang sering saya gunakan di Atom dan Sublime untuk
+                           mengedit secara masal.
+                        </p>
+                        <p>Pada Atom dan Sublime, pembuatan
+                           <em>Multi Cursor</em> menggunakan tombol
+                           <kbd>Ctrl</kbd>.
+                           Sedangkan di VS Code menggunakan tombol
+                           <kbd>Alt</kbd>.
+                        </p>
+                        <p>Tombol ini bentrok dengan
+                           <em>shortcut key</em> Linux. Pada Linux, tombol
+                           <kbd>Alt</kbd>
+                           digunakan untuk menggeser
+                           <em>(drag)</em> jendela.
+                        </p>
+                        <p>Beberapa orang dari komunitas sudah
+                           <a href="https://github.com/Microsoft/vscode/issues/3091" target="_blank">melaporkan masalah ini</a>,
+                           tapi sepertinya belum diperbaiki.
+                        </p>
+                        <p>Solusinya, Linux harus mengalah dan mengganti shortcut-nya menggunakan tombol
+                           yang lain.
+                        </p>
+                        <p>Saya menggantinya ke tombol windows.</p>
+                        <h3>3. Key untuk Duplikat Baris Bentrok</h3>
+                        <p>Pada Atom saya biasanya menduplikasi baris dengan tombol
+                           <kbd>Ctrl</kbd>+
+                           <kbd>Shift</kbd>+
+                           <kbd>d</kbd>,
+                           tapi di VS Code tombol ini memiliki fungsi yang berbeda.
+                        </p>
+                        <p>Tombol untuk duplikasi baris di VS Code adalah:
+                           <kbd>Ctrl</kbd>+
+                           <kbd>Alt</kbd>+
+                           <kbd>Shift</kbd> + arah
+                           <kbd>
+                           <img draggable="false" class="emoji" alt="⬆️">
+                           </kbd> <span> / </span>
+                           <kbd>
+                           <img draggable="false" class="emoji" alt="⬇️">
+                           </kbd>.
+                        </p>
+                        <p>Sedangkan pada Linux, tombol tersebut digunakan untuk berpindah
+                           <em>Workspace</em>.
+                        </p>
+                        <p>Lagi-lagi Linux harus mengalah
+                           <img draggable="false" class="emoji" alt="😄">.
+                        </p>
+                        <p>
+                           <strong>Update</strong>:
+                           <a href="https://github.com/Microsoft/vscode/issues/509" target="_blank">Masalah ini</a> sepertinya sudah diperbaiki. Tombol
+                           yang digunakan adalah
+                           <kbd>Windows</kbd>+
+                           <kbd>Ctrl</kbd>+
+                           <kbd>Shift</kbd>+
+                           <kbd>Alt</kbd>+ arah
+                           <kbd>
+                           <img draggable="false" class="emoji" alt="⬆️">
+                           </kbd>/
+                           <kbd>
+                           <img draggable="false" class="emoji" alt="⬇️">
+                           </kbd>.
+                        </p>
+                        <h2 id="akhir-kata">Akhir Kata…</h2>
+                        <p>Itulah beberapa review saya tentang VS Code di Linux.</p>
+                        <p>Sepertinya VS Code lebih efektif digunakan di Windows, karena di Linux banyak
+                           <em>shortcut key</em> yang bentrok. Namun masih ada solusi, dengan menginstal
+                           <em>extension keymap</em> alternatif.
+                        </p>
+                        <p>Saran:</p>
+                        <p>“Sebaiknya jangan terlalu banyak menginstal
+                           <em>extension</em>, agar tidak berat seperti Atom
+                           <img draggable="false" class="emoji" alt="😄">.”
+                        </p>
+                        <p>Apakah kamu sudah menggunakan VS Code atau ingin menggunakan
+                           VS Code?
+                        </p>
+                        <p>Mari berbagi di komentar…</p>
+                     </div>
+                    <p><em><strong>Source Artikel: petanikode.com</strong></em></p>
+                 </div>
+              </article>
+           </div>
+           <div class="col-sm-12 col-lg-4">
+              <aside class="h-100 d-flex flex-column align-items-center">
+                 <nav class="navbar sticky-top" style="top: 30px;">
+                     <div class="card">
+                         <div class="card-body">
+                            <h2>Newsletter...</h2>
+                            <span style="font-size: .8rem;">Jangan sampai ketinggalan update-an terbaru dari blog ini.</span>
+                            <form action="" class="my-3">
+                                <input class="form-control my-3" type="text" placeholder="Nama">
+                                <input class="form-control my-3" type="text" placeholder="Email*" required>
+                                <button type="submit" class="btn btn-info btn-block">Submit</button>
+                            </form>
+                         </div>
+                     </div>
+                 </nav>
+              </aside>
+           </div>
+        </div>
+     </div>
+    <!-- End of Blog Section -->
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-md-6 text-md-left text-center">
+            <span>&copy; 2020. Made with <img src="../media_files/heart.svg" alt=""> by</span>
+            <a href="https://tryoasnafi.my.id" class="font-weight-bold text-white"> Tryo Asnafi</a>
+          </div>
+          <div class="col-md-6 text-md-right text-center">
+            <div class="social-media">
+              <a href="https://github.com/tryoasnafi" class="px-2"><img src="../media_files/github.svg" alt="github" title="follow my github"></a>
+              <a href="https://facebook.com/tryoasnafi" class="px-2"><img src="../media_files/facebook.svg" alt="facebook" title="add my facebook"></a>
+              <a href="https://linkedin.com/in/tryoasnafi" class="px-2"><img src="../media_files/linkedin.svg" alt="linkedin" title="connect to lindkedin"></a>
+              <a href="mailto:tryoasnafi@gmail.com" class="px-2"><img src="../media_files/mail.svg" alt="mail" title="send me mail"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
